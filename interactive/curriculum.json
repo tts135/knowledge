@@ -1,0 +1,289 @@
+{
+  "groups": [
+    {
+      "id": "start",
+      "number": "00",
+      "title": "学习导览",
+      "description": "先看整条路线"
+    },
+    {
+      "id": "basics",
+      "number": "01",
+      "title": "基础知识",
+      "description": "理解钱、工具与风险"
+    },
+    {
+      "id": "concepts",
+      "number": "02",
+      "title": "核心概念",
+      "description": "从报价走到价值判断"
+    },
+    {
+      "id": "business",
+      "number": "03",
+      "title": "企业分析",
+      "description": "从生意走到估值"
+    },
+    {
+      "id": "portfolio",
+      "number": "04",
+      "title": "资产配置",
+      "description": "把配置、执行与风控放在一起"
+    },
+    {
+      "id": "legacy",
+      "number": "05",
+      "title": "跨代规划",
+      "description": "连接期限与家庭目标"
+    },
+    {
+      "id": "resources",
+      "number": "06",
+      "title": "信息来源与跟踪",
+      "description": "原始入口、指标口径与复核方法"
+    },
+    {
+      "id": "personal",
+      "number": "07",
+      "title": "我的总结与复盘",
+      "description": "形成自己的投资政策"
+    },
+    {
+      "id": "books",
+      "number": "08",
+      "title": "书籍阅读与总结",
+      "description": "18本原件与逐本知识归纳"
+    },
+    {
+      "id": "daily",
+      "number": "09",
+      "title": "当日资料",
+      "description": "按日归档报告、文件、图片与自己的整理"
+    },
+    {
+      "id": "appendix",
+      "number": "附",
+      "title": "资料与原文",
+      "description": "回溯书籍和证据"
+    }
+  ],
+  "lessons": [
+    {
+      "group": "start",
+      "id": "route",
+      "title": "投资工作手册：先用这一份",
+      "goal": "用核心原则、少量证据和四份表单，把学习转成可复核的家庭投资流程。",
+      "file": "notes/13-投资工作手册.md",
+      "heading": null,
+      "tool": null,
+      "experience": null,
+      "experiences": [],
+      "tools": []
+    },
+    {
+      "group": "basics",
+      "id": "money",
+      "title": "投资基础：家庭资金、资产与收益",
+      "goal": "先读懂家庭资金与期限，再理解资产工具、币种、收益、回撤和复利，建立投资前的共同口径。",
+      "file": "notes/chapters/01-foundations.md",
+      "heading": null,
+      "tool": null,
+      "experience": "compound",
+      "experiences": [
+        "compound"
+      ],
+      "tools": []
+    },
+    {
+      "group": "concepts",
+      "id": "margin",
+      "title": "股票核心概念：交易、价格与价值判断",
+      "goal": "读懂股份、市值、盘口、订单、复权、分红、稀释和杠杆，再建立价值与安全边际判断。",
+      "file": "notes/chapters/02-value.md",
+      "heading": null,
+      "tool": null,
+      "experience": "margin",
+      "experiences": [
+        "margin"
+      ],
+      "tools": []
+    },
+    {
+      "group": "business",
+      "id": "business-model",
+      "title": "企业研究：商业模式、财报与估值",
+      "goal": "从客户与单位经济出发，联读三张表，完成现金流、企业价值、股权价值与每股价值的推导。",
+      "file": "notes/chapters/03-business.md",
+      "heading": null,
+      "tool": null,
+      "experience": "statements",
+      "experiences": [
+        "statements",
+        "valuation"
+      ],
+      "tools": []
+    },
+    {
+      "group": "portfolio",
+      "id": "rebalance",
+      "title": "组合管理：选品、债券、再平衡与危机",
+      "goal": "将ETF和个股研究放回家庭组合，理解债券、风险预算、再平衡、周期观察和危机现金的执行关系。",
+      "file": "notes/chapters/04-portfolio.md",
+      "heading": null,
+      "tool": "planning:allocation",
+      "experience": "fund-research",
+      "experiences": [
+        "fund-research",
+        "bonds"
+      ],
+      "tools": [
+        "allocation",
+        "crisis",
+        "selection"
+      ]
+    },
+    {
+      "group": "legacy",
+      "id": "long-term",
+      "title": "跨代规划：目标、购买力与家人接管",
+      "goal": "从不同用途与日期出发，反推投入、比较购买力情景，并落实权属、维护与家人接管。",
+      "file": "notes/chapters/05-generations.md",
+      "heading": null,
+      "tool": "planning:legacy",
+      "experience": null,
+      "experiences": [],
+      "tools": [
+        "legacy"
+      ]
+    },
+    {
+      "group": "resources",
+      "id": "resources",
+      "title": "信息来源与跟踪方法：去哪里查、怎样使用",
+      "goal": "按宏观、资产、结构风险和跨代目标找到原始入口，理解指标口径与权限，并形成低噪音的人工复核记录。",
+      "file": "notes/12-信息来源与跟踪方法.md",
+      "heading": null,
+      "tool": null,
+      "experience": null,
+      "experiences": [],
+      "tools": []
+    },
+    {
+      "group": "personal",
+      "id": "my-notes",
+      "title": "我的总结、政策与复盘",
+      "goal": "用自己的语言写下结论、反证、规则和下一步。",
+      "file": "notes/09-我的投资总结.md",
+      "heading": null,
+      "tool": "personal",
+      "experience": null,
+      "experiences": [],
+      "tools": []
+    },
+    {
+      "group": "books",
+      "id": "books",
+      "title": "书籍阅读与总结：原件与逐本归纳",
+      "goal": "直接阅读18本本地PDF，对照每本的核心知识、应用、局限和原文复核入口。",
+      "file": "notes/14-书籍阅读与总结.md",
+      "heading": null,
+      "tool": null,
+      "experience": null,
+      "experiences": [],
+      "tools": []
+    },
+    {
+      "group": "daily",
+      "id": "daily",
+      "title": "当日资料：导入、查阅与整理",
+      "goal": "把每天的文件和图片留在本地，按日期查阅，写下来源、摘要与待核实问题。",
+      "file": "notes/15-当日资料.md",
+      "heading": null,
+      "tool": null,
+      "experience": null,
+      "experiences": [],
+      "tools": []
+    },
+    {
+      "group": "appendix",
+      "id": "library",
+      "title": "书单、笔记与公开来源",
+      "goal": "随时回溯原始材料、入库状态和整理依据。",
+      "file": "sources/公开资料索引.md",
+      "heading": null,
+      "tool": "planning:library",
+      "experience": null,
+      "experiences": [],
+      "tools": [
+        "library"
+      ]
+    }
+  ],
+  "aliases": {
+    "risk": "money",
+    "currency": "money",
+    "market": "margin",
+    "circle": "margin",
+    "compound": "money",
+    "correlation": "rebalance",
+    "layers": "money",
+    "global": "rebalance",
+    "macro": "rebalance",
+    "research-card": "rebalance",
+    "quiz": "margin",
+    "handover": "long-term",
+    "family-guide": "long-term",
+    "assets": "money",
+    "returns": "money",
+    "statements": "business-model",
+    "valuation": "business-model",
+    "fund-research": "rebalance",
+    "bonds": "rebalance",
+    "crisis": "rebalance",
+    "my-framework": "my-notes"
+  },
+  "legacyTitles": {
+    "risk": "风险、回撤与资金期限",
+    "currency": "币种与真实风险暴露",
+    "market": "市场先生：价格是报价",
+    "circle": "能力圈与反证条件",
+    "compound": "复利、费用与机会成本",
+    "correlation": "周期、相关性与分散边界",
+    "layers": "资金分层与资产分工",
+    "global": "全球配置与债券职责",
+    "macro": "宏观观察与周期假设",
+    "research-card": "仓位预算与研究记录",
+    "quiz": "自测与常见误读",
+    "handover": "权属、继承与家人接管",
+    "family-guide": "目标期限与家庭管理手册",
+    "assets": "资产、工具、币种与真实风险",
+    "returns": "收益、回撤、复利与费用",
+    "statements": "财报、利润、资产与现金",
+    "valuation": "估值模型、情景与敏感性",
+    "fund-research": "ETF、个股研究与组合约束",
+    "bonds": "债券、对冲与现金的边界",
+    "crisis": "宏观观察、危机压力与现金纪律",
+    "my-framework": "我的投资框架草案"
+  },
+  "aliasSections": {
+    "assets": "2.",
+    "returns": "3.",
+    "risk": "1.",
+    "currency": "2.",
+    "compound": "3.",
+    "circle": "4.",
+    "market": "4.",
+    "statements": "6.",
+    "valuation": "7.",
+    "fund-research": "8.",
+    "bonds": "9.",
+    "global": "8.",
+    "crisis": "11.",
+    "macro": "11.",
+    "correlation": "11.",
+    "layers": "1.",
+    "research-card": "8.",
+    "handover": "12.",
+    "family-guide": "12."
+  }
+}

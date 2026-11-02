@@ -1,0 +1,41 @@
+<!-- Standalone template access: the build embeds only the fragment below. -->
+<!-- TEMPLATE_ENTRY_START -->
+<script>location.replace('./' + encodeURIComponent('投资新手知识地图.html') + location.search + location.hash);</script>
+<p>这是界面源码模板。请打开 <a href="./投资新手知识地图.html">完整投资知识库</a>。</p>
+<!-- TEMPLATE_ENTRY_END -->
+<div id="curriculum" class="course-shell">
+  <header class="course-mobile"><span>投资学习手册</span><button id="course-menu" aria-controls="course-sidebar" aria-expanded="false">展开目录</button></header>
+  <aside id="course-sidebar" class="course-sidebar" aria-label="分层学习目录">
+    <a href="#lesson=route" class="course-brand"><span class="course-mark">知</span><span>我的投资知识库<small>从基础到自己的投资体系</small></span></a>
+    <label class="course-search">查找章节与知识点<input id="course-search" type="search" placeholder="久期、财报、现金…"></label>
+    <div class="course-progress"><span id="course-progress-text">学习进度</span><progress id="course-progress" value="0" max="29" aria-label="已标记的学习进度"></progress></div>
+    <div class="course-tree-actions" aria-label="目录展开控制"><button id="course-expand-all" type="button">全部展开</button><button id="course-collapse-all" type="button">全部收起</button></div>
+    <nav id="course-toc" aria-label="学习章节"></nav><p id="course-search-empty" hidden>没有匹配的章节。</p>
+    <p class="course-local-note">进度与手动保存的总结保存在当前浏览器。重要记录请导出备份。</p>
+  </aside>
+  <div class="course-main">
+    <header class="course-heading"><p id="course-breadcrumb"></p><h1 id="course-title" tabindex="-1"></h1><p id="course-goal"></p></header>
+    <div class="course-learning"><label><input type="checkbox" id="course-done">标记本节已学</label><span id="course-position"></span></div>
+    <div class="lesson-toolbar"><button id="lesson-note-jump">✎ 写本节笔记</button><button id="course-export-top">导出全部笔记</button><button id="course-notes-home">我的总结与笔记</button></div>
+    <div id="chapter-experiment-picker" class="chapter-picker" aria-label="本章参数试验"></div>
+    <section id="lesson-lab" class="lesson-lab" aria-label="本节知识图解与互动"></section>
+    <section id="lesson-note-panel" class="lesson-note-panel" aria-label="本节笔记">
+      <div class="lesson-note-head"><div><span class="lab-eyebrow">本主题的记录</span><h2>本节笔记</h2></div><button id="lesson-note-save">保存本节笔记</button></div>
+      <label for="lesson-note-text" id="lesson-note-label">记录本主题的关键理解、仍待核实的判断，或对自己投资政策的影响。</label>
+      <textarea id="lesson-note-text" maxlength="1000000" placeholder="直接在这里写。每节单独保存；例如：我原来以为……操作后发现……仍需要核实……"></textarea>
+      <div class="lesson-note-foot"><span id="lesson-note-status" role="status">自动保存到当前浏览器，也可点击保存。</span><button id="lesson-note-export">导出本节 Markdown</button></div>
+    </section>
+    <section id="course-reading-details" class="course-reading-details"><article id="course-reading" class="plan-prose course-reading"></article></section>
+    <section id="course-personal" hidden aria-label="我的学习总结编辑区">
+      <h2>我的总结、政策与复盘 · 在这里直接填写</h2><p>草案与个人结论分开保存。这里由你填写；点击保存后写入当前浏览器，不会修改磁盘上的 Markdown。导出文件可作为备份并重新导入。</p>
+      <div class="personal-top-actions"><button id="course-save-top">保存我的总结</button><button id="course-backup-top">导出总结与全部笔记</button></div>
+      <div id="course-note-fields"></div><h3>各章节笔记汇总</h3><div id="lesson-notes-index"></div>
+      <div class="course-note-actions"><button id="course-save">保存我的总结</button><button id="course-export">导出总结与进度</button><label class="course-import">导入备份<input id="course-import" type="file" accept="application/json,.json"></label></div>
+      <p id="course-save-status" role="status"></p>
+    </section>
+    <details id="course-advanced" class="course-reading-details"><summary>进阶练习 · 展开更完整的试算与研究表</summary><nav id="chapter-tool-picker" class="chapter-picker" aria-label="本章完整工具"></nav><section id="course-tools" aria-label="本节交互练习"><div id="course-original-tools" hidden></div><div id="course-planning-tools" hidden></div></section></details>
+    <footer class="course-pager"><button id="course-prev">上一节</button><span id="course-next-label"></span><button id="course-next">下一节 →</button></footer>
+    <div class="course-footer"><span>资料、解读、教学假设与个人总结分别记录。</span><a href="../README.md">知识库说明</a></div>
+    <p id="course-storage-status" role="status"></p>
+  </div>
+</div>

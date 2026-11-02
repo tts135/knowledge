@@ -1,0 +1,55 @@
+<section id="planning" class="planning" aria-label="全球配置与家庭长期规划">
+  <header><div class="eyebrow">从知识到家庭投资政策 · 2026.10.20</div><h2>全球配置、危机现金与跨代规划</h2><p>以长期目标为锚，把周期观察、再平衡和选股放进同一套资金纪律。以下比例与冲击均为教学假设，未接入实时行情。</p></header>
+  <nav class="plan-tabs" aria-label="规划主题" role="tablist">
+    <button role="tab" id="pt-framework" aria-controls="pp-framework" aria-selected="true" data-plan="framework">框架与资产分工</button>
+    <button role="tab" id="pt-allocation" aria-controls="pp-allocation" aria-selected="false" data-plan="allocation">仓位与再平衡</button>
+    <button role="tab" id="pt-crisis" aria-controls="pp-crisis" aria-selected="false" data-plan="crisis">危机与现金</button>
+    <button role="tab" id="pt-selection" aria-controls="pp-selection" aria-selected="false" data-plan="selection">选股与 ETF</button>
+    <button role="tab" id="pt-legacy" aria-controls="pp-legacy" aria-selected="false" data-plan="legacy">跨代长期规划</button>
+    <button role="tab" id="pt-library" aria-controls="pp-library" aria-selected="false" data-plan="library">全库阅读与来源</button>
+  </nav>
+  <section id="pp-framework" role="tabpanel" aria-labelledby="pt-framework" class="plan-pane">
+    <div class="plan-callout">先分清三种钱：家庭应急与刚性支出在组合之外；机会现金在组合之内；下一代资金另设目标、汇总时不重复计算。</div>
+    <div class="plan-path"><span>明确用钱日期与币种</span><span>→</span><span>长期目标比例</span><span>→</span><span>偏离触发复核</span><span>→</span><span>核对现金与成本</span><span>→</span><span>记录与复盘</span></div>
+    <div class="plan-cols"><article><h3>框架可以保留的部分</h3><p>用全球大类资产分担风险；把现金和长期增长区分；研究清楚后再考虑 REITs；提前规划下一代用途。周期信号作为假设，动作仍受目标仓位和现金底线约束。</p></article><article><h3>需要修正的三个前提</h3><ul><li>债券能卖出不代表能原价卖出；中长久期债与信用债不能当等额现金。</li><li>美股、台股、日韩可能共同暴露于科技、出口和美元因素。</li><li>危机可能使多项资产同时下跌，但不是每次都普跌，也没有保证抄到底的现金策略。</li></ul></article></div>
+    <details open class="plan-reading"><summary>完整框架：资产分工、宏观观察、再平衡与 IPS</summary><div class="plan-prose">{{framework}}</div></details>
+  </section>
+  <section id="pp-allocation" role="tabpanel" aria-labelledby="pt-allocation" class="plan-pane" hidden>
+    <h3>把当前持仓与目标比例对齐</h3><p>所有市值先换成同一家庭记账币种；不含家庭应急金。工具不替你确定比例。可先载入教学例子，再换成自己的参数。</p>
+    <div class="plan-actions"><button id="plan-example">载入教学示例</button><button id="plan-clear">清空持仓与目标</button></div>
+    <div class="plan-inputs"><label>记账币种（仅显示）<input id="plan-currency" value="CNY" maxlength="12"></label><label>本次新增现金<input id="plan-add" type="number" value="0" min="0" step="any"></label><label>组合最低现金<input id="plan-floor" type="number" value="0" min="0" step="any"></label><label>复核偏离带（百分点）<input id="plan-band" type="number" value="5" min="0" max="100" step="0.5"></label></div>
+    <div class="plan-scroll"><table class="plan-table"><thead><tr><th>资产职责</th><th>当前市值</th><th>目标 %</th><th>含新增现金权重</th><th>偏离（百分点）</th><th>回目标的算术差额</th></tr></thead><tbody id="allocation-rows"></tbody></table></div>
+    <div id="allocation-result" class="plan-callout" aria-live="polite"></div>
+    <p class="plan-small">差额以“当前持仓 + 新增现金”为起点，正数为需增加，负数为需减少。完全回目标仅为算术对照，不是订单；偏离带触发的是复核，不是每一笔差额都应交易。税、费用、换汇和成交约束另算。短债栏需自行确认质量与可变现性；信用债应按真实风险另作分类。</p>
+    <details class="plan-reading"><summary>先填好自己的投资政策声明（IPS）</summary><div class="plan-prose"><p>目的与日期；记账和支出币种；家庭应急金；最大可承受金额损失；目标比例；地区、行业、单股上限；偏离带；最低现金；战术额度；禁止工具；年度复核日期；合法接管人。未知项先保留未知。</p><p>周期调整须另记依据、允许偏离上限与退出条件；不要用每天的宏观判断不断改写战略目标。</p></div></details>
+  </section>
+  <section id="pp-crisis" role="tabpanel" aria-labelledby="pt-crisis" class="plan-pane" hidden>
+    <h3>危机场景：先看组合损失，再看可动用现金</h3><p>使用“仓位与再平衡”里的市值，加上新增现金。下面是人为设定的单次价格冲击，可修改，不是历史数据或最大损失估计。</p>
+    <div class="plan-actions"><label>教学情景<select id="stress-scenario"><option value="recession">增长下行</option><option value="inflation">通胀与利率上行</option><option value="liquidity">流动性紧缩、多资产下跌</option></select></label><button data-goto-plan="allocation">返回填写仓位</button></div>
+    <div class="plan-scroll"><table class="plan-table"><thead><tr><th>资产</th><th>假设冲击 %</th><th>冲击后市值</th><th>金额变动</th></tr></thead><tbody id="stress-rows"></tbody></table></div>
+    <div class="plan-inputs"><label>机会资金分几批（教学参数）<input id="crisis-batches" type="number" value="3" min="1" max="20" step="1"></label></div><div id="stress-result" class="plan-callout" aria-live="polite"></div>
+    <div class="plan-cols"><article><h3>动用条件</h3><p>先守住现金下限与家庭支出；再复核权益目标缺口、基本面和可交易性；用预定批次与风险预算约束加仓，不因为跌幅大就耗尽现金。</p></article><article><h3>停止与恢复</h3><p>收入恶化、论点失效、现金不足或风险预算已满时停止。之后以新增结余、分红或再平衡恢复现金。长久期债和黄金的冲击后市值不额外计入现金。</p></article></div>
+    <p class="plan-small">假设各资产已使用同一记账币种的总回报，现金名义冲击为 0；未模拟通胀购买力、银行或托管风险、交易暂停、税费、动态相关性和强制平仓。若现金自身不安全，实际结果可能更差。</p>
+  </section>
+  <section id="pp-selection" role="tabpanel" aria-labelledby="pt-selection" class="plan-pane" hidden>
+    <h3>先给权益风险定预算，再研究公司或 ETF</h3><div class="plan-prose">{{selection}}</div>
+    <h3>个股压力仓位试算</h3><p>只给出损失预算的一道算术约束，仍须同时符合总权益、地区、行业与流动性上限。</p>
+    <div class="plan-inputs"><label>该股的组合损失预算 %<input id="stock-budget" type="number" value="1" min="0" max="100" step="0.1"></label><label>假设该股压力损失 %<input id="stock-loss" type="number" value="50" min="0.01" max="100" step="1"></label><label>自定单股硬上限 %<input id="stock-cap" type="number" value="5" min="0" max="100" step="0.5"></label></div><div id="stock-result" class="plan-callout" aria-live="polite"></div>
+    <h3>研究卡：让观点接受证据检验</h3><p>仅在当前页面编辑，可下载为 JSON 保存。不自动上传或保存到浏览器；不要填写账户密码或身份信息。勾选只表示你自查完成，不产生买卖评级。</p>
+    <div class="plan-inputs"><label>企业 / 基金名称<input id="research-name" placeholder="待研究对象"></label><label>研究日期<input id="research-date" type="date" value="2026-10-20"></label><label>下次复核日期<input id="research-review" type="date"></label></div>
+    <div class="plan-cols" id="research-fields"></div><div id="research-checks" class="plan-checks"></div><div id="research-status" aria-live="polite"></div><button id="research-download">下载研究卡 JSON</button>
+  </section>
+  <section id="pp-legacy" role="tabpanel" aria-labelledby="pt-legacy" class="plan-pane" hidden>
+    <h3>下一代目标：同时看名义金额与购买力</h3><p>固定年末投入、恒定净名义回报模型。收益率、通胀均由你假设；回报需理解为扣费用后的假设，税未单独计算。不是预测。</p>
+    <div class="plan-inputs"><label>初始本金<input id="legacy-p" type="number" value="100000" min="0" step="any"></label><label>每年年末投入<input id="legacy-c" type="number" value="20000" min="0" step="any"></label><label>目标年数<input id="legacy-n" type="number" value="25" min="1" max="60" step="1"></label><label>净名义年回报假设 %<input id="legacy-r" type="number" value="4" min="-50" max="30" step="0.5"></label><label>年通胀假设 %<input id="legacy-i" type="number" value="2" min="-10" max="30" step="0.5"></label><label>目标金额（今天购买力）<input id="legacy-g" type="number" value="1000000" min="0" step="any"></label></div>
+    <div id="legacy-result" class="plan-callout" aria-live="polite"></div><div class="plan-scroll"><table class="plan-table"><thead><tr><th>净名义回报假设</th><th>未来名义金额</th><th>折回今天购买力</th><th>相对目标的实际差额</th></tr></thead><tbody id="legacy-scenarios"></tbody></table></div>
+    <p class="plan-small">表中低于 / 高于输入 2 个百分点的情景也只是教学假设，没有概率含义。未刻画回报顺序风险、临近提款下跌、收入变化与汇率。距刚性支出接近时，应评估逐步匹配币种和期限。</p>
+    <details open class="plan-reading"><summary>长期管理、权属、继承与家人接管</summary><div class="plan-prose">{{legacy}}</div></details>
+  </section>
+  <section id="pp-library" role="tabpanel" aria-labelledby="pt-library" class="plan-pane" hidden>
+    <h3>全库阅读：原文、书籍、主题补充与公开资料</h3><p>18 本书原件已入库；另 14 本只补知识主题，原件状态仍是未入库。待 OCR 与未入库分别记录，主题补充不冒充全书精读。</p>
+    <label class="plan-search">按标题或正文筛选下面的知识文档<input id="library-search" type="search" placeholder="例如：价值陷阱、现金、财报、富甲美国"></label><p id="library-count" aria-live="polite"></p>
+    <div id="library-docs">{{library}}</div>
+    <p>公开资料核查于 2026-10-20；具体产品、交易和跨境法律税务，需按实际身份与届时规则再核查。美国监管示例不自动适用于其他市场。</p>
+  </section>
+</section>

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "b01",
+    "title": "《价值》张磊",
+    "file": "《价值》张磊.pdf",
+    "pages": 374,
+    "bytes": 11411722,
+    "status": "核心归纳·已核对部分正文",
+    "summary": "notes/books/b01.md",
+    "sha256": "7c6037d870481d760c53ebc7f3c9c40d1e3b9e126657aa7e278a4c9a91e388f6"
+  },
+  {
+    "id": "b02",
+    "title": "《战胜华尔街》彼得 林奇",
+    "file": "《战胜华尔街》彼得 林奇.pdf",
+    "pages": 290,
+    "bytes": 6497380,
+    "status": "主题导读·待正文核对",
+    "summary": "notes/books/b02.md",
+    "sha256": "899ad82091067c8ee095c7857cf3c471fd05414be63d1eb0533bf6c727d4221b"
+  },
+  {
+    "id": "b03",
+    "title": "《投资中最简单的事》",
+    "file": "《投资中最简单的事》.pdf",
+    "pages": 205,
+    "bytes": 5541240,
+    "status": "部分正文归纳·仍有缺页文本",
+    "summary": "notes/books/b03.md",
+    "sha256": "ce2b1fc89e39518c614b2d6500f8cf3d36b242ec418c8cf63f6752f9356c84c8"
+  },
+  {
+    "id": "b04",
+    "title": "《穷查理宝典》",
+    "file": "《穷查理宝典》.pdf",
+    "pages": 305,
+    "bytes": 3668853,
+    "status": "核心归纳·已核对部分正文",
+    "summary": "notes/books/b04.md",
+    "sha256": "f746fd7a134805cef641b3e9725c05b1baf1cfa865f9f972c11e7f161de29c35"
+  },
+  {
+    "id": "b05",
+    "title": "一往无前：雷军亲述小米热血10年 (范海涛) ",
+    "file": "一往无前：雷军亲述小米热血10年 (范海涛) .pdf",
+    "pages": 381,
+    "bytes": 3520771,
+    "status": "核心归纳·已核对部分正文",
+    "summary": "notes/books/b05.md",
+    "sha256": "3b3d7a0be1a34195e51144af3371949714207a4b5a29c4cca0e00fa3d3611906"
+  },
+  {
+    "id": "b06",
+    "title": "原则",
+    "file": "原则.pdf",
+    "pages": 490,
+    "bytes": 6071286,
+    "status": "核心归纳·已核对部分正文",
+    "summary": "notes/books/b06.md",
+    "sha256": "344e3a3daf4c7f35a035c39d6fe8f914787599614f321260488d688a9c71d5a6"
+  },
+  {
+    "id": "b07",
+    "title": "巴菲特致股东的信",
+    "file": "巴菲特致股东的信.pdf",
+    "pages": 238,
+    "bytes": 8598282,
+    "status": "核心归纳·已核对部分正文",
+    "summary": "notes/books/b07.md",
+    "sha256": "11383253b61f8d8d87332630e9b4ce6554454c06b69e63c2b9d8ce16a1904d3f"
+  },
+  {
+    "id": "b08",
+    "title": "彼得·林奇的成功投资  彼得·林奇",
+    "file": "彼得·林奇的成功投资  彼得·林奇.pdf",
+    "pages": 335,
+    "bytes": 27821958,
+    "status": "主题导读·待正文核对",
+    "summary": "notes/books/b08.md",
+    "sha256": "65bfb2b9dcda4778b256733497988b66f11033388c70f346b6941c76899a27cd"
+  },
+  {
+    "id": "b09",
+    "title": "怎样选择成长股",
+    "file": "怎样选择成长股.pdf",
+    "pages": 313,
+    "bytes": 5896379,
+    "status": "主题导读·待正文核对",
+    "summary": "notes/books/b09.md",
+    "sha256": "7b1b526b8fa697bb250e92390a051238d4e64eb388e804f943e7e8c86ceb71d6"
+  },
+  {
+    "id": "b10",
+    "title": "投资最重要的事",
+    "file": "投资最重要的事.pdf",
+    "pages": 270,
+    "bytes": 8646641,
+    "status": "主题导读·待正文核对",
+    "summary": "notes/books/b10.md",
+    "sha256": "21b1237c52011cd5a6ab8041b1acbbc2db8b08800631afa966e1e04f2cdb3edb"
+  },
+  {
+    "id": "b11",
+    "title": "文明、现代化、价值投资与中国 (李录)",
+    "file": "文明、现代化、价值投资与中国 (李录).pdf",
+    "pages": 370,
+    "bytes": 10901397,
+    "status": "核心归纳·已核对部分正文",
+    "summary": "notes/books/b11.md",
+    "sha256": "9b6fcba971599110cc3c85666b5bac22a5a1d20845f9d9b7e435258cfe25dd5f"
+  },
+  {
+    "id": "b12",
+    "title": "时间的玫瑰：但斌投资札记(高清)",
+    "file": "时间的玫瑰：但斌投资札记(高清).pdf",
+    "pages": 355,
+    "bytes": 35741739,
+    "status": "主题导读·待正文核对",
+    "summary": "notes/books/b12.md",
+    "sha256": "2ca523b07c4ab6498b0b35c7200ba53fdd4f67e4243664e427e7ac2a162182ab"
+  },
+  {
+    "id": "b13",
+    "title": "机构投资的创新之路 (大卫·F·史文森)",
+    "file": "机构投资的创新之路 (大卫·F·史文森).pdf",
+    "pages": 388,
+    "bytes": 19192514,
+    "status": "主题导读·待正文核对",
+    "summary": "notes/books/b13.md",
+    "sha256": "296d56cab267b6f0b68cf45b2208b934661655be41d69951c07932d301381396"
+  },
+  {
+    "id": "b14",
+    "title": "段永平投资问答录(投资逻辑篇)",
+    "file": "段永平投资问答录(投资逻辑篇).pdf",
+    "pages": 427,
+    "bytes": 17558862,
+    "status": "核心归纳·已核对部分正文",
+    "summary": "notes/books/b14.md",
+    "sha256": "0790c5c2b3cbc90005a5114c7c229d55374d7be1bec01df725c5117f05a35e29"
+  },
+  {
+    "id": "b15",
+    "title": "聪明的投资者中文第四版",
+    "file": "聪明的投资者中文第四版.pdf",
+    "pages": 474,
+    "bytes": 50772144,
+    "status": "主题导读·待正文核对",
+    "summary": "notes/books/b15.md",
+    "sha256": "d5f454d53f81a288af726ba1eb52dd113b1af1fdcd4852f31dafff9e011c4d3a"
+  },
+  {
+    "id": "b16",
+    "title": "蚂蚁金服：科技金融独角兽的崛起 (由曦)",
+    "file": "蚂蚁金服：科技金融独角兽的崛起 (由曦).pdf",
+    "pages": 240,
+    "bytes": 3328793,
+    "status": "核心归纳·已核对部分正文",
+    "summary": "notes/books/b16.md",
+    "sha256": "8308a21f29f456b3afb6de75634e654a31228c6efd65c8136fd02960ccd2f0b7"
+  },
+  {
+    "id": "b17",
+    "title": "非凡的成功：个人投资的制胜之道",
+    "file": "非凡的成功：个人投资的制胜之道【高瓴资本张磊作序推荐，机构投资的教父级人物大卫·史文森个人代表作，金融投资领域的必读经典！】 (大卫·F.pdf",
+    "pages": 493,
+    "bytes": 7815357,
+    "status": "核心归纳·已核对部分正文",
+    "summary": "notes/books/b17.md",
+    "sha256": "53174082ee1173724254a7ebec373f9f6863e562bbc4e67b34f274e77ec0f249"
+  },
+  {
+    "id": "b18",
+    "title": "韭菜的自我修养(李笑来首次公开投资原则)",
+    "file": "韭菜的自我修养(李笑来首次公开投资原则).pdf",
+    "pages": 100,
+    "bytes": 906868,
+    "status": "核心归纳·已核对部分正文",
+    "summary": "notes/books/b18.md",
+    "sha256": "77050d10c8c925aab4c742b407a2327334601fd454920f45212af36a65f93f93"
+  }
+]
